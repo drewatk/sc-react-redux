@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Stream({ tracks = [] }) {
-  return  (
+  return (
     <div>
       {
         tracks.map((track, key) => {
@@ -9,7 +9,7 @@ function Stream({ tracks = [] }) {
         })
       }
     </div>
-  )
+  );
 }
 
 export default Stream;
